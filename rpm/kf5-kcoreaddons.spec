@@ -11,7 +11,7 @@ URL:     https://invent.kde.org/frameworks/kcoreaddons
 
 Source0: %{name}-%{version}.tar.bz2
 
-%{opt_kf5_default_filter}
+%{?opt_kf5_default_filter}
 
 BuildRequires:  make
 BuildRequires:  opt-extra-cmake-modules >= %{kf5_version}
